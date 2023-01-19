@@ -1,0 +1,30 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Ring 1",
+	"starSystem": "clay.DaylightSavings",
+	"canShowOnTitle": false,
+	
+	"Base": {
+		"surfaceSize": 200,
+		"surfaceGravity": 0,
+		"hasMapMarker": false,
+		"ambientLight": 0
+	},
+	"Orbit": {
+		"primaryBody": "Sun1",
+		"semiMajorAxis": 1,
+		"trueAnomaly": 0,
+		"axialTilt": 0,
+		"siderealPeriod": 0.2,
+		"isStatic": true
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/nh-jam",
+				"path": "Assets/NH Jam/Prefabs/Inner Layer/Ring Assembly.004.prefab",
+				"keepLoaded": true
+			}
+		]
+	}
+}

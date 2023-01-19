@@ -19,5 +19,11 @@
 
 	"Star": {
 		"size": 2200
-	}
+	},
+
+	"removeChildren": [
+		"Sector/Star/HeatVolume",
+		"Sector/Star/DestructionFluidVolume",
+		"Sector/Star/PlanetDestructionVolume"
+	]
 }
