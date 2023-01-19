@@ -1,0 +1,52 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Planet",
+	"starSystem": "clay.DaylightSavings",
+
+	"Base": {
+		"groundSize": 200,
+		"surfaceSize": 340,
+		"surfaceGravity": 10,
+		"hasMapMarker": true,
+		"ambientLight": 0.8
+	},
+
+	"Water": {
+		"size": 340
+	},
+    "Atmosphere": {
+        "size": 600,
+        "hasOxygen": true
+    },
+	
+	"Spawn": {
+		"playerSpawnPoint": {"x": 13.05026, "y": -53.66175, "z": -390.434},
+		"shipSpawnPoint": {"x": 1.29618, "y": -52.75175, "z": -391.6191},
+		"startWithSuit": true
+	},
+
+	"Orbit": {
+		"primaryBody": "Sun1",
+		"semiMajorAxis": 4500,
+		"trueAnomaly": 0,
+		"isTidallyLocked": true
+	},
+
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/nh-jam",
+				"path": "Assets/NH Jam/Prefabs/Planet Surface.prefab",
+				"keepLoaded": true
+			},
+			
+			{
+				"assetBundle": "planets/nh-jam",
+				"path": "Assets/NH Jam/Prefabs/Aperature.prefab",
+				"keepLoaded": true,
+				"position": {"y": -1000},
+				"rotation": {"x": 90}
+			}
+		]
+	}
+}

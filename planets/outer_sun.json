@@ -1,0 +1,23 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Sun1",
+	"starSystem": "clay.DaylightSavings",
+
+	"Base": {
+		"hasMapMarker": false,
+		
+		"surfaceGravity" : 100,
+		"surfaceSize" : 1000,
+		"gravityFallOff" : "inverseSquared",
+		"centerOfSolarSystem" : true
+	},
+
+	"Orbit": {
+		"staticPosition": {"x": 0, "y": 0, "z": 0},
+		"isStatic": true
+	},
+
+	"Star": {
+		"size": 2200
+	}
+}
