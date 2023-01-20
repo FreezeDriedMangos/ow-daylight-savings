@@ -29,9 +29,11 @@
 			
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
-				"position": {"x": 1.012421, "y": -81.2282, "z": -1.209892},
-				"rotation": {"x": 2.591623E-07, "y": 2.044266, "z": 180},
-				"rename": "Table1"
+				"position": {"x": -1.2099, "y": 1.9982, "z": 1.0124},
+				"rotation": {"x": 0, "y": 180, "z": 0},
+				"rename": "Table1",
+				"parentPath": "Sector/Station/Viewing Platform",
+				"isRelativeToParent": true
 			}
 		],
 
@@ -41,10 +43,31 @@
 				"rotation": {"x": 0, "y": 252.6921, "z": 0},
 				
 				"type": "preCrashRecorder",
-				"xmlFile": "planets/explanation.xml",
+				"xmlFile": "planets/text/explanation.xml",
 				"isRelativeToParent": true,
 				"parentPath": "Sector/Table1"
 			}
 		]
+	},
+
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"position": { "x": 0, "y": 0, "z": 0 },
+				"revealOn": "observe",
+				"reveals": [
+					"THERE_IT_IS"
+				],
+				"radius": 200
+			}
+		]
+	},
+	
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/stationicon.png"
+		},
+		"xmlFile": "planets/stationLogs.xml"
 	}
 }

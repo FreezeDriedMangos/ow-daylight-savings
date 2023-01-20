@@ -1,0 +1,31 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>STATION</ID> <!-- The ID of the planet this xml file is for -->
+
+     <Entry> <!-- An Entry For This Planet -->
+        <ID>THE_STATION</ID> <!-- The ID of this entry -->
+        <Name>The Station</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>THE_STATION</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+
+        <ExploreFact> <!-- A rumor fact that belongs to this entry -->
+            <ID>THERE_IT_IS</ID> <!-- The ID of this fact -->
+            <RumorName>I found a space station!</RumorName> <!-- The name of the rumor this fact relates to -->
+            <Text>I found a clockwork space station at the L3 point between the star and its planet!</Text> <!-- The Text to display for this fact -->
+        </ExploreFact>
+
+        <RumorFact> <!-- A rumor fact that belongs to this entry -->
+            <ID>STATION_PURPOSE</ID> <!-- The ID of this fact -->
+            <RumorName>The Purpose</RumorName> <!-- The name of the rumor this fact relates to -->
+            <Text>The Nomai built this station to help them construct the star light harvester. Lachoncha, the apprentice of the engineer Nissi was in charge of its construction.</Text> <!-- The Text to display for this fact -->
+        </RumorFact>
+
+        <RumorFact> <!-- A rumor fact that belongs to this entry -->
+            <ID>VIEWING_PLATFORM</ID> <!-- The ID of this fact -->
+            <RumorName>Viewing Platform</RumorName> <!-- The name of the rumor this fact relates to -->
+            <Text>Navagio requested for a viewing platform to be constructed on the station. It's presumably on the side currently facing the sun. There may be more to discover there, I should go find it!</Text> <!-- The Text to display for this fact -->
+        </RumorFact>
+    </Entry>
+</AstroObjectEntry>

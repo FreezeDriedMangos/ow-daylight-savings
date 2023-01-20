@@ -1,4 +1,4 @@
-<NomaiObject>
+	<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
 		<Text>Anse: It appears this icy rogue planet was captured by that dim neutron star.</Text>
@@ -14,5 +14,8 @@
 	<TextBlock>
 		<ID>4</ID>
 		<Text>Navagio: Of course, we can't leave a planet sunless or else we don't deserve to call ourselves the 12th clan.</Text>
+		<RevealFact>
+			NOMAI_PLAN
+		</RevealFact>
 	</TextBlock>
 </NomaiObject>

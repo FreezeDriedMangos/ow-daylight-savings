@@ -24,7 +24,7 @@
 	
 	"Spawn": {
 		"playerSpawnPoint": {"x": 16.9604, "y": -35.89571, "z": -392.964},
-		"shipSpawnPoint": {"x": 1.717838, "y": -71.3599, "z": -381.2348},
+		"shipSpawnPoint": {"x": 22.86416, "y": -66.5856, "z": -383.8298},
 		"startWithSuit": true
 	},
 
@@ -84,7 +84,7 @@
 				"rotation": {"x": 0, "y": 220.5148, "z": 0},
 				
 				"type": "preCrashRecorder",
-				"xmlFile": "planets/star_found.xml",
+				"xmlFile": "planets/text/star_found.xml",
 				"isRelativeToParent": true,
 				"parentPath": "Sector/Building/Foyer Table"
 			},
@@ -93,10 +93,30 @@
 				"rotation": {"x": 0, "y": 252.6921, "z": 0},
 				
 				"type": "preCrashRecorder",
-				"xmlFile": "planets/plan_made.xml",
+				"xmlFile": "planets/text/plan_made.xml",
 				"isRelativeToParent": true,
 				"parentPath": "Sector/Building/Balcony Table"
 			}
 		]	
+	},
+
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"position": { "x": 0, "y": 0, "z": 0 },
+				"revealOn": "observe",
+				"reveals": [
+					"WTF_IS_THAT"
+				],
+				"radius": 600
+			}
+		]
+	},
+	
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/planeticon.png"
+		}
 	}
 }

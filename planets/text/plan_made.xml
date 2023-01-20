@@ -1,4 +1,4 @@
-<NomaiObject>
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
 		<Text>Nissi: We should begin this project at once. Ansi, is this neutron star usable, or will this project be bigger than I anticipated?</Text>
@@ -10,6 +10,9 @@
 	<TextBlock>
 		<ID>3</ID>
 		<Text>Nissi: Excellent, in that case we will begin with constructing <![CDATA[<color=orange>a station at the L3 point</color>]]> relative to this planet. Apprentice, I will put you in charge of completing this station.</Text>
+		<RevealFact>
+			STATION_PURPOSE
+		</RevealFact>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
@@ -22,5 +25,8 @@
 	<TextBlock>
 		<ID>6</ID>
 		<Text>Navagio: If I may ask, would you include a small <![CDATA[<color=orange>viewing platform</color>]]>? I imagine the view from this station will be something to behold.</Text>
+		<RevealFact>
+			VIEWING_PLATFORM
+		</RevealFact>
 	</TextBlock>
 </NomaiObject>

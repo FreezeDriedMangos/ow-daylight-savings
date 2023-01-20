@@ -1,0 +1,25 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>PLANET</ID> <!-- The ID of the planet this xml file is for -->
+
+     <Entry> <!-- An Entry For This Planet -->
+        <ID>THE_LENS</ID> <!-- The ID of this entry -->
+        <Name>The Aperature</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>THE_LENS</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+
+        <ExploreFact> <!-- A rumor fact that belongs to this entry -->
+            <ID>WTF_IS_THAT</ID> <!-- The ID of this fact -->
+            <RumorName>What is that?!</RumorName> <!-- The name of the rumor this fact relates to -->
+            <Text>I found a giant aperature orbiting this planet at the L1 point between it and the star. What is it for?</Text> <!-- The Text to display for this fact -->
+        </ExploreFact>
+
+        <RumorFact> <!-- A rumor fact that belongs to this entry -->
+            <ID>OH_THATS_WHAT_IT_IS</ID> <!-- The ID of this fact -->
+            <RumorName>The Purpose</RumorName> <!-- The name of the rumor this fact relates to -->
+            <Text>The Nomai built this structure to deliver all of the light harvested from the sun to this planet.</Text> <!-- The Text to display for this fact -->
+        </RumorFact>
+    </Entry>
+</AstroObjectEntry>
