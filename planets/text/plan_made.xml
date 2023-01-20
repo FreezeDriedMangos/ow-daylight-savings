@@ -10,9 +10,6 @@
 	<TextBlock>
 		<ID>3</ID>
 		<Text>Nissi: Excellent, in that case we will begin with constructing <![CDATA[<color=orange>a station at the L3 point</color>]]> relative to this planet. Apprentice, I will put you in charge of completing this station.</Text>
-		<RevealFact>
-			STATION_PURPOSE
-		</RevealFact>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
@@ -25,8 +22,17 @@
 	<TextBlock>
 		<ID>6</ID>
 		<Text>Navagio: If I may ask, would you include a small <![CDATA[<color=orange>viewing platform</color>]]>? I imagine the view from this station will be something to behold.</Text>
-		<RevealFact>
-			VIEWING_PLATFORM
-		</RevealFact>
 	</TextBlock>
+
+	
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>STATION_PURPOSE</FactID>
+            <Condition>3</Condition>
+        </RevealFact>
+        <RevealFact>
+            <FactID>VIEWING_PLATFORM</FactID>
+            <Condition>6</Condition>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>

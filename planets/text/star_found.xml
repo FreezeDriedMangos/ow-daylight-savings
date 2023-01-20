@@ -14,8 +14,12 @@
 	<TextBlock>
 		<ID>4</ID>
 		<Text>Navagio: Of course, we can't leave a planet sunless or else we don't deserve to call ourselves the 12th clan.</Text>
-		<RevealFact>
-			NOMAI_PLAN
-		</RevealFact>
 	</TextBlock>
+
+	<ShipLogConditions>
+        <RevealFact>
+            <FactID>NOMAI_PLAN</FactID>
+            <Condition>4</Condition>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>

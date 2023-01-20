@@ -45,7 +45,26 @@
 				"type": "preCrashRecorder",
 				"xmlFile": "planets/text/explanation.xml",
 				"isRelativeToParent": true,
-				"parentPath": "Sector/Table1"
+				"parentPath": "Sector/Station/Viewing Platform/Table1"
+			}
+		]
+	},
+
+	
+
+
+    
+
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"position": { "x": 0, "y": 0, "z": 0 },
+				"revealOn": "observe",
+				"reveals": [
+					"THERE_IT_IS"
+				],
+				"radius": 400,
+				"maxDistance": 10000
 			}
 		]
 	},
@@ -54,6 +73,7 @@
 		"spriteFolder": "planets/shiplogs/sprites",
 		"mapMode" : {
 			"revealedSprite": "planets/shiplogs/stationicon.png"
-		}
+		},
+		"xmlFile": "planets/shiplogs/stationLogs.xml"
 	}
 }

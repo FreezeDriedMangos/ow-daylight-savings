@@ -1,27 +1,42 @@
 <AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
-    <ID>Sun1</ID>
+    <ID>TIMBER_HEARTH</ID>
 
     <Entry>
-        <ID>EXAMPLES_WETROCK_ENTRY</ID>
-		<IsCuriosity/>
-        <Curiosity>EXAMPLES_WETROCK_ENTRY</Curiosity>
-        <Name>Wetrock</Name>
+        <ID>EXAMPLES_UNEXPECTED_GUESTS</ID>
+        <Name>Unexpected guests</Name>
 
+        <Curiosity>EXAMPLES_UNEXPECTED_GUESTS</Curiosity>
+		<IsCuriosity/>
+    
         <RumorFact>
-            <ID>EXAMPLES_ERNESTO_COUSIN_RUMOR</ID>
-            <SourceID>EXAMPLES_UNEXPECTED_GUESTS</SourceID> 
-            <RumorName>Ernesto's cousin</RumorName>
-            <Text>Apparently Ernesto's cousin is on Wetrock.</Text>
+            <ID>EXAMPLES_VISITORS_RUMOR</ID> 
+            <RumorName>Visitors</RumorName> 
+            <Text>When I went to sleep by the campfire only Slate was here, who are these characters?</Text> 
         </RumorFact>
 
         <ExploreFact>
-            <ID>EXAMPLES_WETROCK_LANDING</ID> 
-            <Text>It sure is wet.</Text> 
+            <ID>EXAMPLES_GESWALDO</ID>
+            <Text>I met a talking jellyfish. His name is Geswaldo!</Text> 
         </ExploreFact>
 
         <ExploreFact>
-            <ID>EXAMPLES_COUSIN_FOUND</ID> 
-            <Text>I found Ernesto's cousin! They're dead.</Text> 
+            <ID>EXAMPLES_ERNESTO</ID>
+            <Text>I met a talking anglerfish named Ernesto!</Text> 
+        </ExploreFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_FRED</ID>
+            <Text>There's a living Nomai here, just hanging out. His name is Fred.</Text> 
+        </ExploreFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_BOB</ID>
+            <Text>Some sort of bird guy is here. Bob I think?</Text> 
+        </ExploreFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_VISION</ID>
+            <Text>I saw a vision but I don't understand it, maybe some of these new guys left it for me.</Text> 
         </ExploreFact>
     </Entry>
 </AstroObjectEntry>

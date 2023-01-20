@@ -18,8 +18,13 @@
 	<TextBlock>
 		<ID>5</ID>
 		<Text>Nissi: However, should any maintainence be needed, the core of the structure may be found by <![CDATA[<color=orange>entering through the lenses found at either pole of the star</color>]]>.</Text>
-		<RevealFact>
-			NISSI_CORE_HINT
-		</RevealFact>
 	</TextBlock>
+
+	
+	<ShipLogConditions>
+        <RevealFact>
+            <FactID>NISSI_CORE_HINT</FactID>
+            <Condition>5</Condition>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>
