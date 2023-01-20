@@ -2,12 +2,13 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Sun1",
 	"starSystem": "clay.DaylightSavings",
+	"canShowOnTitle": true,
 
 	"Base": {
 		"hasMapMarker": false,
 		
 		"surfaceGravity" : 100,
-		"surfaceSize" : 1000,
+		"surfaceSize" : 1100,
 		"gravityFallOff" : "inverseSquared",
 		"centerOfSolarSystem" : true
 	},
@@ -18,13 +19,15 @@
 	},
 
 	"Star": {
-		"size": 1100
+		"size": 1100,
+		"stellarDeathType": "none"
 	},
 
 	"removeChildren": [
 		"Sector/Star/HeatVolume",
 		"Sector/Star/DestructionFluidVolume",
-		"Sector/Star/PlanetDestructionVolume"
+		"Sector/Star/PlanetDestructionVolume",
+		"Sector/Star/Surface"
 	],
 
 	"Props": {
@@ -32,12 +35,14 @@
 			{
 				"assetBundle": "planets/nh-jam",
 				"path": "Assets/NH Jam/Prefabs/Inner Layer/Inner Sun Assembly.prefab",
-				"keepLoaded": true
+				"keepLoaded": true,
+				"rotation": {"x":90}
 			},
 			{
 				"assetBundle": "planets/nh-jam",
 				"path": "Assets/NH Jam/Prefabs/Outer Layer/Outer Sun Generator.prefab",
-				"keepLoaded": true
+				"keepLoaded": true,
+				"rotation": {"x":-83.45}
 			}
 		]
 	}
