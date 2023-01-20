@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4266672489
+CRC: 2228760219
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 76d2d563b9c04be3d7b1bbe7134c9cd5
+    Hash: 47f19a79077f29827bf612a44c2b1e20
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 15ffe8450b8a0e656ea6bdf86c521483
+    Hash: 77f93bab159f3ecf8c42b95913df3e8a
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,6 +27,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
@@ -45,8 +47,11 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 135
   Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/NH Jam/Prefabs/Building.prefab
 - Assets/NH Jam/Prefabs/Planet Surface.prefab
 - Assets/NH Jam/Prefabs/Aperature.prefab
 - Assets/NH Jam/Prefabs/Station/Station.prefab

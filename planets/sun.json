@@ -7,7 +7,7 @@
 	"Base": {
 		"hasMapMarker": false,
 		
-		"surfaceGravity" : 100,
+		"surfaceGravity" : 10,
 		"surfaceSize" : 1100,
 		"gravityFallOff" : "inverseSquared",
 		"centerOfSolarSystem" : true

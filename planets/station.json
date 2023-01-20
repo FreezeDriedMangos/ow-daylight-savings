@@ -24,6 +24,26 @@
 				"keepLoaded": true,
 
 				"rotation": {"x": -90}
+			},
+
+			
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"position": {"x": 1.012421, "y": -81.2282, "z": -1.209892},
+				"rotation": {"x": 2.591623E-07, "y": 2.044266, "z": 180},
+				"rename": "Table1"
+			}
+		],
+
+		"nomaiText": [
+			{
+				"position": {"x": -0.0782, "y": 1.06, "z": -0.5992},
+				"rotation": {"x": 0, "y": 252.6921, "z": 0},
+				
+				"type": "preCrashRecorder",
+				"xmlFile": "planets/star_found.xml",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/Table1"
 			}
 		]
 	}

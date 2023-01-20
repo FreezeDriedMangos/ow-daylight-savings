@@ -16,11 +16,14 @@
 	},
     "Atmosphere": {
         "size": 600,
-        "hasOxygen": true
+        "hasOxygen": true,
+		"fogTint" : { "r": 90, "g": 128, "b": 128, "a": 255 },
+		"fogDensity": 0.1,
+		"fogSize": 600
     },
 	
 	"Spawn": {
-		"playerSpawnPoint": {"x": 13.05026, "y": -53.66175, "z": -390.434},
+		"playerSpawnPoint": {"x": 16.9604, "y": -35.89571, "z": -392.964},
 		"shipSpawnPoint": {"x": 1.29618, "y": -52.75175, "z": -391.6191},
 		"startWithSuit": true
 	},
@@ -46,7 +49,54 @@
 				"keepLoaded": true,
 				"position": {"y": -1000},
 				"rotation": {"x": 90}
+			},
+			
+			{
+				"assetBundle": "planets/nh-jam",
+				"path": "Assets/NH Jam/Prefabs/Building.prefab",
+				"keepLoaded": true,
+				"position": {"x": 17.26596, "y": -38.81975, "z": -392.4699},
+				"rotation": {"x": 281.9451, "y": 216.2347, "z": 139.7077}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"parentPath": "Sector/Building",
+				"rename": "Balcony Table",
+				"isRelativeToParent": true,
+				"position": {"x": -6.6035, "y": 7.9987, "z": 4.5901},
+				"rotation": {"x": 0, "y": 90, "z": 0.0001}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"parentPath": "Sector/Building",
+				"rename": "Foyer Table",
+				"isRelativeToParent": true,
+				"position": {"x": -1.945, "y": 3.9987, "z": 8.8779},
+				"rotation": {"x": 0, "y": 283.9998, "z": 0}
 			}
-		]
+
+			
+		],
+
+		"nomaiText": [
+			{
+				"position": {"x": -0.0782, "y": 1.06, "z": -0.5992},
+				"rotation": {"x": 0, "y": 252.6921, "z": 0},
+				
+				"type": "preCrashRecorder",
+				"xmlFile": "planets/star_found.xml",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/Building/Balcony Table"
+			},
+			{
+				"position": {"x": -0.2418, "y": 1.06, "z": -1.1864},
+				"rotation": {"x": 0, "y": 220.5148, "z": 0},
+				
+				"type": "preCrashRecorder",
+				"xmlFile": "planets/star_found.xml",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/Building/Foyer Table"
+			}
+		]	
 	}
 }
