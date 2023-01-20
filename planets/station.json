@@ -13,14 +13,17 @@
 	"Orbit": {
 		"primaryBody": "Sun1",
 		"semiMajorAxis": 4500,
-		"trueAnomaly": 180
+		"trueAnomaly": 180,
+		"isTidallyLocked": true
 	},
 	"Props": {
 		"details": [
 			{
 				"assetBundle": "planets/nh-jam",
 				"path": "Assets/NH Jam/Prefabs/Station/Station.prefab",
-				"keepLoaded": true
+				"keepLoaded": true,
+
+				"rotation": {"x": -90}
 			}
 		]
 	}
