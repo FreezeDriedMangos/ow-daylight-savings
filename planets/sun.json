@@ -25,5 +25,20 @@
 		"Sector/Star/HeatVolume",
 		"Sector/Star/DestructionFluidVolume",
 		"Sector/Star/PlanetDestructionVolume"
-	]
+	],
+
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/nh-jam",
+				"path": "Assets/NH Jam/Prefabs/Inner Layer/Inner Sun Assembly.prefab",
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/nh-jam",
+				"path": "Assets/NH Jam/Prefabs/Outer Layer/Outer Sun Generator.prefab",
+				"keepLoaded": true
+			}
+		]
+	}
 }

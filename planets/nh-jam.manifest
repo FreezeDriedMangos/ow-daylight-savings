@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2446955130
+CRC: 796640515
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5d48cd7675dc44affcf5458c7637c5b3
+    Hash: 069edde4492567a576a093f23301bfd2
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c5d8728239c5b2dfb84e4bcc6a363eb3
+    Hash: cb821b8a38e895d7a36592b5c110bab8
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,26 +25,37 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f9ebac59db4418429151fe1e302432c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a5d97181e34bdc419bf097833c61373, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b21148dab2fe4ab468de03459edf483b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9fc2294cf3b0d3346b0a42bed190f7a4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7ae0136c7107eea4590214648dc9e397, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c2d328d259791744bb8539650a9c619, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67327a4eaa436274f8b91aea3646a95d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 61b00a8e76a237e429174e8bc253901f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/NH Jam/Prefabs/Outer Layer/Many Rings Shell.prefab
-- Assets/NH Jam/Prefabs/Outer Layer/Aperature.001.prefab
-- Assets/NH Jam/Prefabs/Outer Layer/Shell.005.prefab
 - Assets/NH Jam/Prefabs/Planet Surface.prefab
-- Assets/NH Jam/Prefabs/Inner Layer/Ring.006.prefab
-- Assets/NH Jam/Prefabs/Station/Helical Gear.prefab
 - Assets/NH Jam/Prefabs/Aperature.prefab
-- Assets/NH Jam/Prefabs/Station/Vertical Bevel Gear.prefab
-- Assets/NH Jam/Prefabs/Inner Layer/Ring.005.prefab
-- Assets/NH Jam/Prefabs/Inner Layer/Ring.004.prefab
-- Assets/NH Jam/Prefabs/Outer Layer/Outer Sun Generator Full Shell.prefab
-- Assets/NH Jam/Prefabs/Outer Layer/Shell.004.prefab
-- Assets/NH Jam/Prefabs/Inner Layer/Ring Assembly.001.prefab
-- Assets/NH Jam/Prefabs/Station/Station Core .prefab
-- Assets/NH Jam/Prefabs/Station/Spherical Helical Gears.prefab
-- Assets/NH Jam/Prefabs/Inner Layer/Star Amplifier.002.prefab
-- Assets/NH Jam/Prefabs/Inner Layer/Ring Assembly.003.prefab
-- Assets/NH Jam/Prefabs/Inner Layer/Ring Assembly.002.prefab
-- Assets/NH Jam/Prefabs/Outer Layer/Shell.003.prefab
+- Assets/NH Jam/Prefabs/Station/Station.prefab
+- Assets/NH Jam/Prefabs/Outer Layer/Outer Sun Generator.prefab
+- Assets/NH Jam/Prefabs/Inner Layer/Inner Sun Assembly.prefab
 Dependencies: []

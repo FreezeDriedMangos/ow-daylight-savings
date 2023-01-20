@@ -19,7 +19,7 @@
 		"details": [
 			{
 				"assetBundle": "planets/nh-jam",
-				"path": "Assets/NH Jam/Prefabs/Station/Station Core .prefab",
+				"path": "Assets/NH Jam/Prefabs/Station/Station.prefab",
 				"keepLoaded": true
 			}
 		]
