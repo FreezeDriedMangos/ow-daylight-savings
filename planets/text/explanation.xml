@@ -26,5 +26,17 @@
             <FactID>NISSI_CORE_HINT</FactID>
             <Condition>5</Condition>
         </RevealFact>
+        <RevealFact>
+            <FactID>THERE_IT_IS</FactID> <!-- just in case -->
+            <Condition>5</Condition>
+        </RevealFact>
+        <RevealFact>
+            <FactID>POLAR_APERATURES_EXPLORE</FactID> <!-- just in case -->
+            <Condition>5</Condition>
+        </RevealFact>
+        <RevealFact>
+            <FactID>OH_THATS_WHAT_IT_IS</FactID>
+            <Condition>1</Condition>
+        </RevealFact>
     </ShipLogConditions>
 </NomaiObject>
