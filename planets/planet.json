@@ -99,19 +99,6 @@
 			}
 		]	
 	},
-
-	"Volumes": {
-		"revealVolumes": [
-			{
-				"position": { "x": 0, "y": 0, "z": 0 },
-				"revealOn": "observe",
-				"reveals": [
-					"WTF_IS_THAT"
-				],
-				"radius": 600
-			}
-		]
-	},
 	
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",

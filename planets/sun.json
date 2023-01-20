@@ -46,42 +46,11 @@
 			}
 		]
 	},
-
-	"Volumes": {
-		"revealVolumes": [
-			{
-				"position": { "x": 0, "y": 0, "z": 0 },
-				"revealOn": "enter",
-				"reveals": [
-					"FOUND_THE_CORE"
-				],
-				"radius": 900
-			},
-			{
-				"position": { "x": 0, "y": 1100, "z": 0 },
-				"revealOn": "observe",
-				"reveals": [
-					"POLAR_APERATURES_EXPLORE"
-				],
-				"radius": 100
-			},
-			{
-				"position": { "x": 0, "y": -1100, "z": 0 },
-				"revealOn": "observe",
-				"reveals": [
-					"POLAR_APERATURES_EXPLORE"
-				],
-				"radius": 100
-			}
-		]
-	},
 	
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
 		"mapMode" : {
 			"revealedSprite": "planets/shiplogs/staricon.png"
-		},
-		"xmlFile": "planets/starLogs.xml",
-		"initialReveal": "CHART_RADIO"
+		}
 	}
 }

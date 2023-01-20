@@ -1,0 +1,115 @@
+
+
+    <Entry> <!-- Create another entry -->
+        <ID>POLAR_APERATURES</ID> <!-- Make sure IDs are unique! -->
+        <Name>Polar Aperatures</Name>
+        <Curiosity>DARK_STAR</Curiosity> <!-- Set this entry's curiosity to the other one we defined -->
+
+        <ExploreFact>
+            <ID>POLAR_APERATURES_EXPLORE</ID>
+            <SourceID>DARK_STAR</SourceID> <!-- Set SourceID to connect a line from one entry to another -->
+            <Text>I found these strange structures positioned above the poles of the star.</Text>
+        </ExploreFact>
+
+        <!-- Make some facts for this second entry -->
+        <RumorFact>
+            <ID>NISSI_CORE_HINT</ID>
+            <RumorName>Fly Through the Aperature</RumorName>
+            <Text>Nissi, the Nomai engineer, said that "the core" of the structure they built can be accessed by flying through either of these aperatures.</Text>
+        </RumorFact>
+    </Entry>
+    
+    <Entry> <!-- Create another entry -->
+        <ID>DYSON_SPHERE</ID> <!-- Make sure IDs are unique! -->
+        <Name>The Core</Name>
+        <Curiosity>DYSON_SPHERE</Curiosity> <!-- Set this entry's curiosity to the other one we defined -->
+        <IsCuriosity/>
+
+        <ExploreFact>
+            <ID>FOUND_THE_CORE</ID>
+            <Text>I found a Dyson sphere at the core of this solar amplification structure! This is the end of the mod, thanks for playing!</Text>
+            <SourceID>POLAR_APERATURES</SourceID>
+        </ExploreFact>
+    </Entry>
+
+    
+
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"position": { "x": 0, "y": 0, "z": 0 },
+				"revealOn": "enter",
+				"reveals": [
+					"FOUND_THE_CORE"
+				],
+				"radius": 900
+			},
+			{
+				"position": { "x": 0, "y": 1100, "z": 0 },
+				"revealOn": "observe",
+				"reveals": [
+					"POLAR_APERATURES_EXPLORE"
+				],
+				"radius": 100
+			},
+			{
+				"position": { "x": 0, "y": -1100, "z": 0 },
+				"revealOn": "observe",
+				"reveals": [
+					"POLAR_APERATURES_EXPLORE"
+				],
+				"radius": 100
+			}
+		]
+	},
+
+
+
+
+    
+
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"position": { "x": 0, "y": 0, "z": 0 },
+				"revealOn": "observe",
+				"reveals": [
+					"THERE_IT_IS"
+				],
+				"radius": 200
+			}
+		]
+	},
+	
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/stationicon.png"
+		},
+		"xmlFile": "planets/stationLogs.xml"
+	}
+
+
+
+
+    
+
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"position": { "x": 0, "y": 0, "z": 0 },
+				"revealOn": "observe",
+				"reveals": [
+					"WTF_IS_THAT"
+				],
+				"radius": 600
+			}
+		]
+	},
+	
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/planeticon.png"
+		}
+	}

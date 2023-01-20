@@ -30,5 +30,11 @@
 	"removeChildren": [
 		"Sector/Star/DestructionFluidVolume",
 		"Sector/Star/PlanetDestructionVolume"
-	]
+	],
+
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	}
 }
