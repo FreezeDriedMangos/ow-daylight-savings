@@ -2,5 +2,5 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
 	"canEnterViaWarpDrive" : true,
 	"enableTimeLoop": false,
-	"startHere": true
+	"startHere": false
 }
