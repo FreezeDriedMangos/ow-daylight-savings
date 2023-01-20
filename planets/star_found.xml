@@ -1,22 +1,18 @@
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>RSS_EARTH_NOM_RAFT_RECORDER_PAGE_1</Text>
+		<Text>Anse: It appears this icy rogue planet was captured by that dim neutron star.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
-		<Text>RSS_EARTH_NOM_RAFT_RECORDER_PAGE_2</Text>
+		<Text>Lachoncha: This is so sad, the tiny star's output is too little to reach this world.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
-		<Text>RSS_EARTH_NOM_RAFT_RECORDER_PAGE_3</Text>
+		<Text>Nissi: Every planet should have a sun, we should do something.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
-		<Text>RSS_EARTH_NOM_RAFT_RECORDER_PAGE_4</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>5</ID>
-		<Text>RSS_EARTH_NOM_RAFT_RECORDER_PAGE_5</Text>
+		<Text>Navagio: Of course, we can't leave a planet sunless or else we don't deserve to call ourselves the 12th clan.</Text>
 	</TextBlock>
 </NomaiObject>

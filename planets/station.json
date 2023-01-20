@@ -41,7 +41,7 @@
 				"rotation": {"x": 0, "y": 252.6921, "z": 0},
 				
 				"type": "preCrashRecorder",
-				"xmlFile": "planets/star_found.xml",
+				"xmlFile": "planets/explanation.xml",
 				"isRelativeToParent": true,
 				"parentPath": "Sector/Table1"
 			}

@@ -1,0 +1,22 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Nissi: The aperature at the L1 point is now focusing 93% of the star's light on the planet. It now has a sun, as all planets should. The structure is complete. I will never get used to how easy projects like this have become.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>Lachoncha: Our ancestors would have taken generations to build something even one tenth this size!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>Navagio: And our technology is built on their shoulders. I am grateful they have taken us this far.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>Nissi: At any rate, this structure itself should last for many generations. I do not expect that it will wear down for another hundred thousand years at least.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>Nissi: However, should any maintainence be needed, the core of the structure may be found by <![CDATA[<color=orange>entering through the lenses found at either pole of the star</color>]]>.</Text>
+	</TextBlock>
+</NomaiObject>

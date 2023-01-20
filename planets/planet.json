@@ -24,7 +24,7 @@
 	
 	"Spawn": {
 		"playerSpawnPoint": {"x": 16.9604, "y": -35.89571, "z": -392.964},
-		"shipSpawnPoint": {"x": 1.29618, "y": -52.75175, "z": -391.6191},
+		"shipSpawnPoint": {"x": 1.717838, "y": -71.3599, "z": -381.2348},
 		"startWithSuit": true
 	},
 
@@ -80,15 +80,6 @@
 
 		"nomaiText": [
 			{
-				"position": {"x": -0.0782, "y": 1.06, "z": -0.5992},
-				"rotation": {"x": 0, "y": 252.6921, "z": 0},
-				
-				"type": "preCrashRecorder",
-				"xmlFile": "planets/star_found.xml",
-				"isRelativeToParent": true,
-				"parentPath": "Sector/Building/Balcony Table"
-			},
-			{
 				"position": {"x": -0.2418, "y": 1.06, "z": -1.1864},
 				"rotation": {"x": 0, "y": 220.5148, "z": 0},
 				
@@ -96,6 +87,15 @@
 				"xmlFile": "planets/star_found.xml",
 				"isRelativeToParent": true,
 				"parentPath": "Sector/Building/Foyer Table"
+			},
+			{
+				"position": {"x": -0.0782, "y": 1.06, "z": -0.5992},
+				"rotation": {"x": 0, "y": 252.6921, "z": 0},
+				
+				"type": "preCrashRecorder",
+				"xmlFile": "planets/plan_made.xml",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/Building/Balcony Table"
 			}
 		]	
 	}

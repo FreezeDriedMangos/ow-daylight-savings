@@ -1,0 +1,26 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Nissi: We should begin this project at once. Ansi, is this neutron star usable, or will this project be bigger than I anticipated?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>Anse: My calculations suggest that if we can redirect at least 92% of the star's output towards the planet, that would be enough for it to serve as a sun.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>Nissi: Excellent, in that case we will begin with constructing <![CDATA[<color=orange>a station at the L3 point</color>]]> relative to this planet. Apprentice, I will put you in charge of completing this station.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>Lachoncha: Excellent! I imagine it will need canons powerful enough to reach a low orbit around the star, meaning the energy required will force long cooldown times, so we should make sure that we can cycle multiple cannons to ensure the project completion-</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>Nissi: Easy, Apprentice. Remember, write it all out and keep it organized.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<Text>Navagio: If I may ask, would you include a small <![CDATA[<color=orange>viewing platform</color>]]>? I imagine the view from this station will be something to behold.</Text>
+	</TextBlock>
+</NomaiObject>
