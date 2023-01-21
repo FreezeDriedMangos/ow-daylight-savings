@@ -4,5 +4,27 @@
 	"enableTimeLoop": false,
 	"startHere": true,
 	
-	"initialReveal": ["CHART_RADIO"]
+	"initialReveal": ["CHART_RADIO"],
+	"curiosities": [
+		{
+			"id": "DYSON_SPHERE",
+			"color": { "r": 232, "g": 229, "b": 165, "a": 255 },
+			"highlightColor": { "r": 255, "g": 254, "b": 224, "a": 255 }
+		},
+		{
+			"id": "DARK_STAR",
+			"color": { "r": 191, "g": 93, "b": 40, "a": 255 },
+			"highlightColor": { "r": 199, "g": 122, "b": 50, "a": 255 }
+		},
+		{
+			"id": "THE_LENS",
+			"color": { "r": 128, "g": 115, "b": 51, "a": 255 },
+			"highlightColor": { "r": 179, "g": 165, "b": 100, "a": 255 }
+		},
+		{
+			"id": "THE_STATION",
+			"color": { "r": 135, "g":  135, "b": 135, "a": 255 },
+			"highlightColor": { "r": 190, "g": 190, "b": 190, "a": 255 }
+		}
+	]
 }
