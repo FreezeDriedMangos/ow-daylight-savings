@@ -15,17 +15,35 @@
             <RumorName>I found a space station!</RumorName> <!-- The name of the rumor this fact relates to -->
             <Text>I found a clockwork space station at the L3 point between the star and its planet!</Text> <!-- The Text to display for this fact -->
         </ExploreFact>
+    </Entry>
+
+
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>THE_STATION_PURPOSE_ENTRY</ID> <!-- The ID of this entry -->
+        <Name>The Station's Purpose</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>THE_STATION</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
 
         <RumorFact> <!-- A rumor fact that belongs to this entry -->
             <ID>STATION_PURPOSE</ID> <!-- The ID of this fact -->
-            <RumorName>The Purpose</RumorName> <!-- The name of the rumor this fact relates to -->
+            <RumorName>The Station's Purpose</RumorName> <!-- The name of the rumor this fact relates to -->
+            <SourceID>THE_STATION</SourceID>
             <Text>The Nomai built this station to help them construct the star light harvester. Lachoncha, the apprentice of the engineer Nissi was in charge of its construction.</Text> <!-- The Text to display for this fact -->
         </RumorFact>
+    </Entry>
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>THE_STATION_VIEWING_PLATFORM_ENTRY</ID> <!-- The ID of this entry -->
+        <Name>Viewing Platform</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>THE_STATION</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
 
         <RumorFact> <!-- A rumor fact that belongs to this entry -->
             <ID>VIEWING_PLATFORM</ID> <!-- The ID of this fact -->
             <RumorName>Viewing Platform</RumorName> <!-- The name of the rumor this fact relates to -->
+            <SourceID>THE_STATION</SourceID>
             <Text>Navagio requested for a viewing platform to be constructed on the station. It's presumably on the side currently facing the sun. There may be more to discover there, I should go find it!</Text> <!-- The Text to display for this fact -->
         </RumorFact>
     </Entry>
+
+    
 </AstroObjectEntry>

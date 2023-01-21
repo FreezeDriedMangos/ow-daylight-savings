@@ -1,0 +1,19 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Ernesto: You found me!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>Ernesto: I'm everywhere, always watching.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>Ernesto: But are you always watching me?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>Ernesto: I didn't think so.</Text>
+	</TextBlock>
+	
+</NomaiObject>

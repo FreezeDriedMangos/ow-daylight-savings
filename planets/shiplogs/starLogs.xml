@@ -2,7 +2,7 @@
 
 <AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                   xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
-    <ID>Sun1</ID> 
+    <ID>Sun</ID> 
 
     <Entry> 
         <ID>DARK_STAR</ID> 
@@ -11,15 +11,23 @@
         <IsCuriosity/> 
 
         <RumorFact> 
-            <ID>CHART_RADIO</ID> 
-            <RumorName>Chert's Message</RumorName> 
-            <Text>Chert radioed me about a strange star that suddenly appeared in an otherwise empty patch of space 2,700 lightyears away. It has a strange luminosity profile - the star itself is nearly dead in the visible range, though the corona could belong to a regular star. Riebeck thinks its sudden appearance may be connected to the Nomai.</Text> 
-        </RumorFact>
-
-        <RumorFact> 
             <ID>NOMAI_PLAN</ID> 
             <RumorName>Nomai Plan</RumorName> 
+            <SourceID>THE_STATION</SourceID>
             <Text>The Nomai planed to do something to this former neutron star to turn it into a suitable sun for its formerly icy planet.</Text> 
+        </RumorFact>
+    </Entry>
+    
+    <Entry> 
+        <ID>CHERTS_MESSAGE</ID> 
+        <Name>Chert's Message</Name> 
+        <Curiosity>DARK_STAR</Curiosity> 
+
+        <RumorFact> 
+            <ID>CHART_RADIO</ID> 
+            <SourceID>DARK_STAR</SourceID> 
+            <RumorName>Chert's Message</RumorName> 
+            <Text>Chert radioed me about a strange star that suddenly appeared in an otherwise empty patch of space 2,700 lightyears away. It has a strange luminosity profile - the star itself is nearly dead in the visible range, though the corona could belong to a regular star. Riebeck thinks its sudden appearance may be connected to the Nomai.</Text> 
         </RumorFact>
     </Entry>
 
@@ -36,12 +44,21 @@
             <Text>I found these strange structures positioned above the poles of the star.</Text>
         </ExploreFact>
 
+    </Entry>
+
+    <Entry> <!-- Create another entry -->
+        <ID>POLAR_APERATURES_HINT</ID> <!-- Make sure IDs are unique! -->
+        <Name>Accessing the Core</Name>
+        <Curiosity>DARK_STAR</Curiosity> <!-- Set this entry's curiosity to the other one we defined -->
+
         <!-- Make some facts for this second entry -->
         <RumorFact>
             <ID>NISSI_CORE_HINT</ID>
-            <RumorName>Fly Through the Aperature</RumorName>
+            <RumorName>Accessing the Core</RumorName>
+            <SourceID>POLAR_APERATURES</SourceID>
             <Text>Nissi, the Nomai engineer, said that "the core" of the structure they built can be accessed by flying through either of these aperatures.</Text>
         </RumorFact>
+
     </Entry>
     
     <Entry> <!-- Create another entry -->
@@ -52,6 +69,7 @@
 
         <ExploreFact>
             <ID>FOUND_THE_CORE</ID>
+            <SourceID>POLAR_APERATURES_HINT</SourceID>
             <Text>I found a Dyson sphere at the core of this solar amplification structure! This is the end of the mod, thanks for playing!</Text>
             <SourceID>POLAR_APERATURES</SourceID>
         </ExploreFact>
