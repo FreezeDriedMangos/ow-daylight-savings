@@ -23,7 +23,7 @@
     },
 	
 	"Spawn": {
-		"playerSpawnPoint": {"x": 16.9604, "y": -35.89571, "z": -392.964},
+		"playerSpawnPoint": {"x": 16.9604, "y": -35.89571, "z": -393.1},
 		"shipSpawnPoint": {"x": 22.86416, "y": -66.5856, "z": -383.8298},
 		"startWithSuit": true
 	},
