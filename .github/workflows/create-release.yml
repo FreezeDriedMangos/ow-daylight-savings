@@ -35,5 +35,5 @@ jobs:
             name: Version ${{fromJson(steps.read-manifest.outputs.manifest).version}}
             omitBodyDuringUpdate: true
             artifacts: "${{ github.event.repository.name }}.zip"
-            draft: true
+            draft: false
             prerelease: false
